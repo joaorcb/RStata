@@ -1,5 +1,7 @@
 The following table provides some quick translations of Stata commands into R.  Since R supports multiple data sets, we need to specify a specific data set to manipulate when using data accessing/modifying commands. We use mydata as the default data set to target. 
 
+link for a pdf/ppt with other R-STATA dictionary
+
 Stata                         | R                                          | Description
 ------------------------------|--------------------------------------------|------------------------------
 insheet using "foo.csv", comma| mydata <- read.csv("foo.csv")              | Read csv file
